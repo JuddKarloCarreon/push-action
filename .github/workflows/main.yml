@@ -2,7 +2,7 @@ name: Github Actions Example
 on:
   push:
     branches:
-      - master
+      - feature/add_readme
 jobs:
   build:
     name: Sample build
