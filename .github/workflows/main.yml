@@ -3,6 +3,10 @@ on:
   push:
     branches:
       - feature/*
+  pull-request:
+    branches:
+      - master
+      - develop
 jobs:
   build:
     name: Sample build
